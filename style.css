@@ -44,14 +44,26 @@ body{
 
 div h1{
     display: block;
+    font-size: 3rem;
     font-family: 'Anonymous Pro', monospace;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1.5em;
     color:#D9DCD6;
-    letter-spacing: 15px;
     background-color: #3A7CA5;
-    border-radius: 15px;
-    width:;
-    margin:0px;
-    padding: 5px 5px 5px 15px;
+    border: none;
+    border-radius: 2em;
+    width:75%;
+    margin:7em 0 1em 4em;
+    padding: 0.5em 0 0.5em 2em;
+}
+div h1::first-letter{
+    color:#DD6E42;
+}
+::selection{
+    color:#780000;
+    background-color: #FDF0D5;
 }
 
 #copy-right::before{
@@ -59,5 +71,5 @@ div h1{
 }
 #copy-right{
     font-family: 'Bad Script', cursive;
-    font-size: 15px;
+    font-size: 1rem;
 }
