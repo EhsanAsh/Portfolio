@@ -2,6 +2,9 @@
 font-family: 'Bad Script', cursive;
 font-family: 'Dosis', sans-serif;
 font-family: 'PT Mono', monospace;*/
+html{
+    font-size: 10px;
+}
 body{
     margin: 0px;
     background-color: #D9DCD6;
@@ -9,9 +12,11 @@ body{
 
 .nav-button{
     display: inline-block;
-    padding: 7px 10px;
-    margin: 10px;
-    font-size: 15px;
+    font-size: 1.5rem;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    margin: 1em 0.5em;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -19,13 +24,12 @@ body{
     color: #16425B;
     background-color: #81C3D7;
     border: none;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px   #0d3b66;
-    font-family: 'Anonymous Pro', monospace;
-    font-weight: bold;
+    border-radius: 1.5em;
+    box-shadow: .3em .3em .3em .1em   #3A7CA5;
 }
 .nav-button:hover{
-    background-color: #630929;
+    background-color: #D9DCD6;
+    text-decoration: underline #81C3D7;
 }
 
 #about::after{
