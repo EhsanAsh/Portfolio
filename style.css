@@ -2,10 +2,8 @@
 font-family: 'Bad Script', cursive;
 font-family: 'Dosis', sans-serif;
 font-family: 'PT Mono', monospace;*/
-html{
+html,body{
     font-size: 10px;
-}
-body{
     margin: 0px;
     background-color: #D9DCD6;
 }
