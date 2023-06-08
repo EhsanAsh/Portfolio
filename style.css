@@ -67,12 +67,13 @@ html,body{
 }
 
 #copy-right::before{
-    content:"\00A9";
+    content:"\000A9";
+    font-size: 1.5rem;
 }
 #copy-right{
-    font-family: 'PT Mono', monospace; cursive;
+    font-family: 'PT Mono', monospace, cursive;
     font-size: 1rem;
 }
 #copy-right span{
-    
+
 }
