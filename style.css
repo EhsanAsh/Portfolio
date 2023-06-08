@@ -1,7 +1,9 @@
-/*font-family: 'Anonymous Pro', monospace;
-font-family: 'Bad Script', cursive;
+/*
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Comic Neue', cursive;
 font-family: 'Dosis', sans-serif;
-font-family: 'PT Mono', monospace;*/
+font-family: 'PT Mono', monospace;
+*/
 html,body{
     font-size: 10px;
     margin: 0px;
@@ -40,11 +42,11 @@ html,body{
     content:"\1F449";
 }
 
-div h1{
+#portfolio{
     display: block;
-    font-size: 3rem;
-    font-family: 'Anonymous Pro', monospace;
-    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 1.5em;
@@ -56,7 +58,7 @@ div h1{
     margin:7em 0 1em 4em;
     padding: 0.5em 0 0.5em 2em;
 }
-div h1::first-letter{
+#portfolio::first-letter{
     color:#DD6E42;
 }
 ::selection{
@@ -68,6 +70,6 @@ div h1::first-letter{
     content:"\00A9";
 }
 #copy-right{
-    font-family: 'Bad Script', cursive;
+    font-family: 'PT Mono', monospace; cursive;
     font-size: 1rem;
 }
