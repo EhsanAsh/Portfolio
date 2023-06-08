@@ -13,7 +13,7 @@ html,body{
 .nav-button{
     display: inline-block;
     font-size: 1.5rem;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'PT Mono', monospace, cursive;
     font-weight: bold;
     padding: 0.5em 1em;
     margin: 1em 0.5em;
@@ -44,6 +44,7 @@ html,body{
 
 #portfolio{
     display: block;
+    position:relative;
     font-size: 3.5rem;
     font-family: 'Comic Neue', cursive;
     font-weight: bolder;
@@ -58,12 +59,24 @@ html,body{
     margin:7em 0 1em 4em;
     padding: 0.5em 0 0.5em 2em;
 }
-#portfolio::first-letter{
+/*#portfolio::first-letter{
     color:#DD6E42;
-}
+}*/
 ::selection{
     color:#780000;
     background-color: #FDF0D5;
+}
+
+.profile{
+    position:absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1rem;
+    color: rgba(3, 4, 94,1);
+    text-align: center;
+    letter-spacing: normal;
 }
 
 #copy-right::before{
