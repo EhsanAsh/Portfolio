@@ -8,7 +8,7 @@ font-family: 'Roboto Flex', sans-serif;
 html,body{
     font-size: 10px;
     margin: 0px;
-    background-color: #D9DCD6;
+    background: center/cover no-repeat url(./assets/images/Background-pic1.jpg);
     font-family: 'Roboto Flex', sans-serif;
 }
 
