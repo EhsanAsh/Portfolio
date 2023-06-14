@@ -32,11 +32,6 @@
     "prettier.bracketSameLine": true,
     "editor.mouseWheelZoom": true,
     "terminal.integrated.automationProfile.linux": null,
-    "terminal.integrated.profiles.windows": {
-        "Git Bash": {
-            "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\Git Bash.lnk"
-        }
-    },
     "editor.stickyScroll.maxLineCount": 3,
     "codesnap.backgroundColor": "#d0f4de",
     "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 50px 60px",
