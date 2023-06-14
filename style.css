@@ -12,10 +12,10 @@ html,body{
 
 .nav-button{
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: lighter;
     padding: 0.3em 0.5em;
-    margin: 1em 0.5em;
+    margin: 1em 0.2em;
     text-align: center;
     text-decoration: none;
     outline: none;
@@ -23,6 +23,7 @@ html,body{
     background-color: #fae7a1e9;
     border: solid 0.1em #f4d35e;
     border-radius: 1.5em;
+    transition: ;
 }
 .nav-button:hover{
     background-color: #D9DCD6;
@@ -59,8 +60,12 @@ html,body{
     color:#780000;
     border-radius: 2em;
     width:75%;
-    margin:7em 0 1em 4em;
+    margin:7em auto;
     padding: 0.5em 0 0.5em 2em;
+    transition: ;
+}
+#portfolio:hover{
+
 }
 
 ::selection{
@@ -73,9 +78,8 @@ html,body{
     top: 200px;
     right: 0;
     left: 0;
-    /* font-family: 'Comic Neue', cursive; */
     font-size: 1rem;
-    color: rgba(3, 4, 94,1);
+    color: #780000;
     text-align: center;
     letter-spacing: normal;
 }
@@ -85,9 +89,13 @@ html,body{
     font-size: 1.5rem;
 }
 #copy-right{
-    /* font-family: 'PT Mono', monospace, cursive; */
+    display: block;
+    font-family: 'PT Mono', monospace, cursive;
     font-size: 1rem;
+    text-align: center;
+    margin: 350px 0 0 0;
+    color:rgba(3, 4, 94,1);
 }
 #copy-right span{
-
+    color: #780000;
 }
