@@ -1,35 +1,36 @@
 /*
-font-family: 'Anonymous Pro', monospace;
 font-family: 'Comic Neue', cursive;
-font-family: 'Dosis', sans-serif;
-font-family: 'PT Mono', monospace;
+font-family: 'Hepta Slab', serif;
+font-family: 'Roboto Flex', sans-serif;
 */
 html,body{
     font-size: 10px;
     margin: 0px;
     background-color: #D9DCD6;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 .nav-button{
     display: inline-block;
     font-size: 1.5rem;
-    font-family: 'PT Mono', monospace, cursive;
-    font-weight: bold;
-    padding: 0.5em 1em;
+    font-weight: lighter;
+    padding: 0.3em 0.5em;
     margin: 1em 0.5em;
-    cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #16425B;
-    background-color: #81C3D7;
-    border: none;
+    color: #780000;
+    background-color: #fae7a1e9;
+    border: solid 0.1em #f4d35e;
     border-radius: 1.5em;
-    box-shadow: .3em .3em .3em .1em   #3A7CA5;
 }
 .nav-button:hover{
     background-color: #D9DCD6;
-    text-decoration: underline #81C3D7;
+    color: #3A7CA5;
+    box-shadow: .2em .2em .3em .1em rgba(238, 151, 75, 0.479);
+    border: solid 0.1em #f0c975;
+    transform: translate3d(0.1em, -0.1em, .2em);
+    cursor: pointer;
 }
 
 #about::after{
@@ -52,16 +53,16 @@ html,body{
     text-transform: capitalize;
     letter-spacing: 1.5em;
     color:#D9DCD6;
-    background-color: #3A7CA5;
-    border: none;
+    /* background-color: #3A7CA5; */
+    /* border: none; */
+    background-color: #f7eabae9;
+    color:#780000;
     border-radius: 2em;
     width:75%;
     margin:7em 0 1em 4em;
     padding: 0.5em 0 0.5em 2em;
 }
-/*#portfolio::first-letter{
-    color:#DD6E42;
-}*/
+
 ::selection{
     color:#780000;
     background-color: #FDF0D5;
@@ -72,7 +73,7 @@ html,body{
     top: 200px;
     right: 0;
     left: 0;
-    font-family: 'Comic Neue', cursive;
+    /* font-family: 'Comic Neue', cursive; */
     font-size: 1rem;
     color: rgba(3, 4, 94,1);
     text-align: center;
@@ -84,7 +85,7 @@ html,body{
     font-size: 1.5rem;
 }
 #copy-right{
-    font-family: 'PT Mono', monospace, cursive;
+    /* font-family: 'PT Mono', monospace, cursive; */
     font-size: 1rem;
 }
 #copy-right span{
