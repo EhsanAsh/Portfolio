@@ -16,22 +16,22 @@ html,body{
     display: inline-block;
     font-size: 1.2rem;
     font-weight: lighter;
-    padding: 0.3em 0.5em;
-    margin: 1em 0.2em;
+    padding: 0.3em 0.4em;
+    margin: 0.5em 0.2em;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #780000;
-    background-color: #fae7a1e9;
-    border: solid 0.1em #f4d35e;
+    color: #7800009d;
+    background-color: #fae7a1a2;
+    border: solid 0.1em #f4d45eda;
     border-radius: 1.5em;
-    transition: ;
+    transition: background-color 0.25s ease-in 0s, color 0.25s cubic-bezier(0.215, 0.610, 0.355, 1) 0s, border 0.25s ease-in-out 0s, transform 0.25s ease-in-out 0s;
 }
 .nav-button:hover{
-    background-color: #D9DCD6;
-    color: #3A7CA5;
-    box-shadow: .2em .2em .3em .1em rgba(238, 151, 75, 0.479);
-    border: solid 0.1em #f0c975;
+    background-color: #15616d;
+    color: #ff7d00;
+    box-shadow: .2em .2em .3em .1em #001524a6;
+    border: solid 0.1em #001524;
     transform: translate3d(0.1em, -0.1em, .2em);
     cursor: pointer;
 }
