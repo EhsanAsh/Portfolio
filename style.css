@@ -12,6 +12,11 @@ html,body{
     font-family: 'Roboto Flex', sans-serif;
 }
 
+::selection{
+    color:#780000;
+    background-color: #FDF0D5;
+}
+
 .nav-button{
     display: inline-block;
     font-size: 1.2rem;
@@ -46,9 +51,16 @@ html,body{
     content:"\1F449";
 } */
 
+main{
+    position:relative
+}
+
 #portfolio{
     display: block;
-    position:relative;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    right: auto;
     font-size: 3.5rem;
     font-family: 'Comic Neue', cursive;
     font-weight: bolder;
@@ -59,20 +71,14 @@ html,body{
     color:#780000;
     border-radius: 2em;
     width:75%;
-    margin:7em auto;
-    padding: 0.5em 0 0.5em 2em;
-    transition: ;
+    padding: 0.2em 0 0.2em 1.5em;
+    /* transition: ; */
 }
 #portfolio:hover{
 
 }
 
-::selection{
-    color:#780000;
-    background-color: #FDF0D5;
-}
-
-.profile{
+/* .profile{
     position:absolute;
     top: 200px;
     right: 0;
@@ -81,7 +87,7 @@ html,body{
     color: #780000;
     text-align: center;
     letter-spacing: normal;
-}
+} */
 
 #copy-right::before{
     content:"\000A9";
