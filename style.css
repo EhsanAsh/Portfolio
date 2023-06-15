@@ -36,7 +36,7 @@ html,body{
     cursor: pointer;
 }
 
-#about::after{
+/* #about::after{
     content:"\1F64B";
 }
 #contact::after{
@@ -44,7 +44,7 @@ html,body{
 }
 #next::after{
     content:"\1F449";
-}
+} */
 
 #portfolio{
     display: block;
@@ -92,7 +92,7 @@ html,body{
     font-family: 'PT Mono', monospace, cursive;
     font-size: 1rem;
     text-align: center;
-    margin: 350px 0 0 0;
+    margin: 0 0 0 0;
     color:rgba(3, 4, 94,1);
 }
 #copy-right span{
