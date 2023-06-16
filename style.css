@@ -3,13 +3,12 @@ font-family: 'Comic Neue', cursive;
 font-family: 'Hepta Slab', serif;
 font-family: 'Roboto Flex', sans-serif;
 */
-/*Branch background: testing the background property values.*/
 
 html,body{
-    font-size: 10px;
+    font-size: 25px;
     margin: 0px;
     background: center/cover no-repeat url(./assets/images/background-pic2.jpg);
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Hepta Slab', serif;
 }
 
 ::selection{
@@ -19,7 +18,7 @@ html,body{
 
 .nav-button{
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 0.5rem;
     font-weight: lighter;
     padding: 0.3em 0.4em;
     margin: 0.5em 0.2em;
@@ -41,45 +40,50 @@ html,body{
     cursor: pointer;
 }
 
-/* #about::after{
-    content:"\1F64B";
-}
-#contact::after{
-    content:"\1F4E9";
-}
-#next::after{
-    content:"\1F449";
-} */
+/* --------------------------------------- */
 
-#portfolio{
+main{
+    display:block;
+    position: relative;
+    top:6em;
+}
+
+h1#portfolio{
+    font-size: 2.5rem;
     display: block;
-    /* position:; */
-    font-size: 3.5rem;
-    font-family: 'Comic Neue', cursive;
-    font-weight: bolder;
-    text-align: center;
+    position: absolute;
+    top:.5em;
+    left: 2em;
+    font-family: 'Hepta Slab', serif;
+    font-weight: lighter;
     text-transform: capitalize;
-    letter-spacing: 1.5em;
-    background-color: #f7eabae9;
-    color:#780000;
-    border-radius: 2em;
-    width:75%;
-    /* margin: 1em auto; */
-    padding: 0.2em 0 0.2em 1.5em;
+    letter-spacing: 1em;
+    background-color: #e0e1dd89;
+    color:#415a77;
+    border-radius: 1em;
+    padding: 0 0 0 1em;
     /* transition: ; */
 }
-#portfolio:hover{
 
+/* #portfolio:hover{
+
+} */
+
+div:nth-of-type(1){
+    font-size: 0.4rem;
 }
 
-.profile{
+
+/* .profile{*/
     /* position:absolute; */
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     /* margin: 5em auto; */
-    color: #780000;
-    text-align: center;
-    letter-spacing: normal;
-}
+    /* color: #780000; */
+    /* text-align: center; */
+    /* letter-spacing: normal; */
+/*}*/
+
+/* --------------------------------------- */
 
 #copy-right::before{
     content:"\000A9";
@@ -96,3 +100,15 @@ html,body{
 #copy-right span{
     color: #780000;
 }
+
+/* --------------------------------------- */
+/* #about::after{
+    content:"\1F64B";
+}
+#contact::after{
+    content:"\1F4E9";
+}
+#next::after{
+    content:"\1F449";
+} */
+/* --------------------------------------- */
