@@ -8,7 +8,7 @@ font-family: 'Roboto Flex', sans-serif;
 html,body{
     font-size: 10px;
     margin: 0px;
-    background: center/cover no-repeat url(./assets/images/Background-pic1.jpg);
+    background: center/cover no-repeat url(./assets/images/background-pic2.jpg);
     font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -51,16 +51,9 @@ html,body{
     content:"\1F449";
 } */
 
-main{
-    position:relative
-}
-
 #portfolio{
     display: block;
-    position: absolute;
-    top: 1em;
-    left: 2em;
-    right: auto;
+    /* position:; */
     font-size: 3.5rem;
     font-family: 'Comic Neue', cursive;
     font-weight: bolder;
@@ -71,6 +64,7 @@ main{
     color:#780000;
     border-radius: 2em;
     width:75%;
+    /* margin: 1em auto; */
     padding: 0.2em 0 0.2em 1.5em;
     /* transition: ; */
 }
@@ -78,16 +72,14 @@ main{
 
 }
 
-/* .profile{
-    position:absolute;
-    top: 200px;
-    right: 0;
-    left: 0;
-    font-size: 1rem;
+.profile{
+    /* position:absolute; */
+    font-size: 1.5rem;
+    /* margin: 5em auto; */
     color: #780000;
     text-align: center;
     letter-spacing: normal;
-} */
+}
 
 #copy-right::before{
     content:"\000A9";
